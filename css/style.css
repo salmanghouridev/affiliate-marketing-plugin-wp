@@ -1,0 +1,53 @@
+.sas-login,
+.sas-registration,
+.sas-dashboard {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.sas-stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.sas-stat-box {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.sas-products table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.sas-products th,
+.sas-products td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.sas-products th {
+    background-color: #f4f4f4;
+}
+
+.sas-add-product,
+.sas-remove-product {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.sas-add-product:hover,
+.sas-remove-product:hover {
+    background-color: #005177;
+}
